@@ -1,16 +1,16 @@
 package com.aaronchan.factory.method.stati;
 
 public abstract class Hubman {
-	private Gender gender;
+	private Color gender;
 
-	public Hubman(Gender gender) {
+	public Hubman(Color gender) {
 		super();
 		this.gender = gender;
 	}
 
 	@Override
 	public String toString() {
-		return "Human [gender=" + gender + "]";
+		return this.getClass().getSimpleName() + " [gender=" + gender + "]";
 	}
-	
+
 }

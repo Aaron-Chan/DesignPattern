@@ -1,11 +1,11 @@
 package com.aaronchan.factory.method.stati;
 
-public enum Gender {
-	MALE("male"), FEMALE("female");
+public enum Color {
+	BLACK("black"), WHITE("white");
 
 	private String title;
 
-	Gender(String title) {
+	Color(String title) {
 		this.title = title;
 	}
 

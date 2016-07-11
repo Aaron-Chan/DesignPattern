@@ -1,11 +1,11 @@
 package com.aaronchan.factory.method.mulit;
 
 public class ColaFactory {
-	public Cola producePensiCola() {
-		return new CocaCola(Brand.COCA);
+	public Cola producePensiCola(Size size) {
+		return new CocaCola(size);
 	}
 
-	public Cola produceCocaCola() {
-		return new PensiCola(Brand.PENSI);
+	public Cola produceCocaCola(Size size) {
+		return new PensiCola(size);
 	}
 }

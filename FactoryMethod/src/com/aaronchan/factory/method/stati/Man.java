@@ -2,7 +2,7 @@ package com.aaronchan.factory.method.stati;
 
 public class Man extends Hubman {
 
-	public Man(Gender gender) {
+	public Man(Color gender) {
 		super(gender);
 	}
 

@@ -1,13 +1,16 @@
 package com.aaronchan.factory.method.simple;
 
 public class MobilePhoneFactory {
-	public MobilePhone produce(OS os) {
+	public MobilePhone produce(String os) {
 		MobilePhone mobilePhone = null;
-		if (os == OS.Android) {
-			mobilePhone = new AndroidPhone(os);
-		} else if (os == OS.IOS) {
-			mobilePhone = new IOSPhone(os);
+		if (os != null) {
+			if (os.equalsIgnoreCase("android")) {
+				mobilePhone = new AndroidPhone();
+			} else if (os.equalsIgnoreCase("ios")) {
+				mobilePhone = new IOSPhone();
+			}
 		}
+
 		return mobilePhone;
 	}
 }

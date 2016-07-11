@@ -1,10 +1,11 @@
 package com.aaronchan.factory.method.mulit;
 
-public enum Brand {
-	COCA("CocaCola"), PENSI("PensiCola");
+public enum Size {
+	BOTTLING("bottling"), CANNED("canned");
+
 	private String title;
 
-	Brand(String title) {
+	Size(String title) {
 		this.title = title;
 	}
 

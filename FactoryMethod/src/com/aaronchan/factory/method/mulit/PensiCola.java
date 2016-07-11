@@ -2,7 +2,7 @@ package com.aaronchan.factory.method.mulit;
 
 public class PensiCola extends Cola {
 
-	public PensiCola(Brand brand) {
+	public PensiCola(Size brand) {
 		super(brand);
 	}
 
