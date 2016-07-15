@@ -1,5 +1,6 @@
 package com.aaronchan.factory.method.stati;
 
+
 public enum Color {
 	BLACK("black"), WHITE("white");
 

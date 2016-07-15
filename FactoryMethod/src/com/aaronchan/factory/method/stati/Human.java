@@ -1,9 +1,9 @@
 package com.aaronchan.factory.method.stati;
 
-public abstract class Hubman {
+public abstract class Human {
 	private Color gender;
 
-	public Hubman(Color gender) {
+	public Human(Color gender) {
 		super();
 		this.gender = gender;
 	}
