@@ -1,12 +1,14 @@
-package com.aaronchan.adapter;
+package com.aaronchan.facade;
 
-public class Restaurant implements FoodDeliveryService {
+public class Restaurant  {
 	private Deliveryman deliveryman;
 	private Chef chef;
+	private Waiter waiter;
 
-	@Override
+
 	public void order(FoodName foodName) {
 		Food food = chef.cook(foodName);
+		waiter.pack(food);
 		deliveryman.delivery(food);
 	}
 
@@ -14,6 +16,7 @@ public class Restaurant implements FoodDeliveryService {
 		super();
 		this.deliveryman = new Deliveryman();
 		this.chef = new Chef();
+		this.waiter = new Waiter();
 	}
 
 	public Deliveryman getDeliveryman() {

@@ -1,4 +1,4 @@
-package com.aaronchan.adapter;
+package com.aaronchan.facade;
 
 public class Food {
 	private String name;

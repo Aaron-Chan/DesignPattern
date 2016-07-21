@@ -1,4 +1,4 @@
-package com.aaronchan.adapter;
+package com.aaronchan.facade;
 
 public enum FoodName {
 	BEEF_NOODLES("BeefNoodles"), STEAK("Steak");
