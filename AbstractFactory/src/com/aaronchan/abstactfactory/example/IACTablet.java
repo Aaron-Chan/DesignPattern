@@ -1,4 +1,4 @@
-package com.aaronchan.abstactfactory;
+package com.aaronchan.abstactfactory.example;
 
 public class IACTablet implements Tablet {
 	private static final String DESCRIPTION = "this is IACTablet";

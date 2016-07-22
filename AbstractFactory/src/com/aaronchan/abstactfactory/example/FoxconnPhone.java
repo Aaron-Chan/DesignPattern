@@ -1,4 +1,4 @@
-package com.aaronchan.abstactfactory;
+package com.aaronchan.abstactfactory.example;
 
 public class FoxconnPhone implements Phone {
 	private static final String DESCRIPTION = "this is FoxconnPhone";

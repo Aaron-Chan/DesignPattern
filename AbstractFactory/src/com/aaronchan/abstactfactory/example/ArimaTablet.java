@@ -1,4 +1,4 @@
-package com.aaronchan.abstactfactory;
+package com.aaronchan.abstactfactory.example;
 
 public class ArimaTablet implements Tablet {
 
