@@ -1,6 +1,6 @@
 package com.aaronchan.abstactfactory;
 
-public class ArimaPhone implements Phone {
+public class ArimaPhone extends Phone {
 
 	private static final String DESCRIPTION = "this is ArimaPhone";
 

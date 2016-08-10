@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<class-diagram version="1.1.8" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
-  associations="true" dependencies="false" nesting-relationships="true">  
-  <class id="1" language="java" name="com.aaronchan.factory.method.mulit.CocaCola" project="FactoryMethod" 
-    file="/FactoryMethod/src/com/aaronchan/factory/method/mulit/CocaCola.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="354" y="284"/>    
+<class-diagram version="1.1.10" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="com.aaronchan.factory.method.mulit.example.CocaCola" project="FactoryMethod" 
+    file="/FactoryMethod/src/com/aaronchan/factory/method/mulit/example/CocaCola.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="553" y="296"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="2" language="java" name="com.aaronchan.factory.method.mulit.PensiCola" project="FactoryMethod" 
-    file="/FactoryMethod/src/com/aaronchan/factory/method/mulit/PensiCola.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="2" language="java" name="com.aaronchan.factory.method.mulit.example.PensiCola" project="FactoryMethod" 
+    file="/FactoryMethod/src/com/aaronchan/factory/method/mulit/example/PensiCola.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="140" y="285"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -19,8 +21,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="3" language="java" name="com.aaronchan.factory.method.mulit.Cola" project="FactoryMethod" 
-    file="/FactoryMethod/src/com/aaronchan/factory/method/mulit/Cola.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="3" language="java" name="com.aaronchan.factory.method.mulit.example.Cola" project="FactoryMethod" 
+    file="/FactoryMethod/src/com/aaronchan/factory/method/mulit/example/Cola.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="258" y="113"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -28,8 +30,9 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="4" language="java" name="com.aaronchan.factory.method.mulit.ColaFactory" project="FactoryMethod" 
-    file="/FactoryMethod/src/com/aaronchan/factory/method/mulit/ColaFactory.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="4" language="java" name="com.aaronchan.factory.method.mulit.example.ColaFactory" project="FactoryMethod" 
+    file="/FactoryMethod/src/com/aaronchan/factory/method/mulit/example/ColaFactory.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="598" y="108"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -37,25 +40,25 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <dependency id="5">    
-    <end type="SOURCE" refId="4"/>    
-    <end type="TARGET" refId="1"/>  
-  </dependency>  
-  <generalization id="6">    
+  <generalization id="5">    
     <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <generalization id="6">    
+    <end type="SOURCE" refId="2"/>    
     <end type="TARGET" refId="3"/>  
   </generalization>  
   <dependency id="7">    
     <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="8">    
+    <end type="SOURCE" refId="4"/>    
     <end type="TARGET" refId="2"/>  
   </dependency>  
-  <generalization id="8">    
-    <end type="SOURCE" refId="2"/>    
-    <end type="TARGET" refId="3"/>  
-  </generalization>  
   <dependency id="9">    
     <end type="SOURCE" refId="4"/>    
-    <end type="TARGET" refId="3"/>  
+    <end type="TARGET" refId="1"/>  
   </dependency>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
     sort-features="false" accessors="true" visibility="true">    

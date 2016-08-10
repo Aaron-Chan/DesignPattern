@@ -1,6 +1,6 @@
 package com.aaronchan.abstactfactory;
 
-public class IACUDisk implements UDisk {
+public class IACUDisk extends UDisk {
 	private static final String DESCRIPTION = "this is IACUDisk";
 
 	@Override

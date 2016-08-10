@@ -1,5 +1,5 @@
 package com.aaronchan.abstactfactory;
 
-public interface  Tablet {
-	String getDescription();
+public abstract class  Tablet {
+	abstract String getDescription();
 }

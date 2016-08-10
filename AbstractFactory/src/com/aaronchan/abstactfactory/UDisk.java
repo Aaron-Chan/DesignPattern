@@ -1,5 +1,5 @@
 package com.aaronchan.abstactfactory;
 
-public interface UDisk {
-	String getDescription();
+public abstract class UDisk {
+	public	abstract String getDescription();
 }

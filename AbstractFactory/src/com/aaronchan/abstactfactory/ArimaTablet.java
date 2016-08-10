@@ -1,6 +1,6 @@
 package com.aaronchan.abstactfactory;
 
-public class ArimaTablet implements Tablet {
+public class ArimaTablet extends Tablet {
 
 	private static final String DESCRIPTION = "this is ArimaTablet";
 

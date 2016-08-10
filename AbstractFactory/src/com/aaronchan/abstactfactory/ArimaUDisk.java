@@ -1,6 +1,6 @@
 package com.aaronchan.abstactfactory;
 
-public class ArimaUDisk implements UDisk {
+public class ArimaUDisk extends UDisk {
 
 	private static final String DESCRIPTION = "this is ArimaUDisk";
 

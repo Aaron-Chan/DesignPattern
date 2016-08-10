@@ -1,5 +1,5 @@
 package com.aaronchan.abstactfactory;
 
-public interface  Phone {
-	String getDescription();
+public abstract class  Phone {
+	abstract String getDescription();
 }

@@ -1,4 +1,4 @@
-package com.aaronchan.factory.method.simple;
+package com.aaronchan.factory.method.simple.example;
 
 public enum OS {
 	Android("Android"), IOS("IOS");

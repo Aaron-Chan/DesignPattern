@@ -1,4 +1,4 @@
-package com.aaronchan.factory.method.mulit;
+package com.aaronchan.factory.method.mulit.example;
 
 public enum Size {
 	BOTTLING("bottling"), CANNED("canned");

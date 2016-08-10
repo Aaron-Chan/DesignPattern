@@ -1,7 +1,7 @@
 package com.aaronchan.singleton;
 
 /**
- * 线程不安全
+ * 锟竭程诧拷锟斤拷全
  * 
  * @author AaronChan
  *
@@ -15,7 +15,8 @@ public class LazySingleton {
 		}
 		return instance;
 	}
-private  LazySingleton() {
-		
+
+	private LazySingleton() {
+
 	}
 }

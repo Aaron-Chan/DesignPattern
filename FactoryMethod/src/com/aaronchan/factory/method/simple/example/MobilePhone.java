@@ -1,4 +1,4 @@
-package com.aaronchan.factory.method.simple;
+package com.aaronchan.factory.method.simple.example;
 
 public abstract class MobilePhone {
 	protected OS os;

@@ -1,4 +1,4 @@
-package com.aaronchan.factory.method.stati;
+package com.aaronchan.factory.method.stati.example;
 
 public class Woman extends Human {
 
