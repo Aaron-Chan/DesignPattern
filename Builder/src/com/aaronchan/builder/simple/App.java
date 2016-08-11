@@ -9,6 +9,7 @@ public class App {
 				.withHairStyle(HairStyle.BALD).build();
 		System.out.println(encourage.toString());
 		System.out.println(mini.toString());
+		System.out.println(System.currentTimeMillis());
 	}
 
 }
