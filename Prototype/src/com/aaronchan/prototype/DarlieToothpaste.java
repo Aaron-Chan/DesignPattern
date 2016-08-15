@@ -6,5 +6,4 @@ public class DarlieToothpaste extends Toothpaste {
 		return new DarlieToothpaste();
 	}
 
-
 }

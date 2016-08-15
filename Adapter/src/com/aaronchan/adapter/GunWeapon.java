@@ -18,5 +18,4 @@ public class GunWeapon implements Weapon {
 		this.gun = new Gun();
 	}
 
-
 }

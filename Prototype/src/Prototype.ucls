@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<class-diagram version="1.1.8" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
-  associations="true" dependencies="true" nesting-relationships="true">  
+<class-diagram version="1.1.10" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="true" nesting-relationships="true" router="FAN">  
   <class id="1" language="java" name="com.aaronchan.prototype.Prototype" project="Prototype" 
     file="/Prototype/src/com/aaronchan/prototype/Prototype.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="332" y="243"/>    
+    <position height="-1" width="-1" x="354" y="334"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -12,7 +12,7 @@
   </class>  
   <class id="2" language="java" name="com.aaronchan.prototype.Shampoo" project="Prototype" 
     file="/Prototype/src/com/aaronchan/prototype/Shampoo.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="603" y="53"/>    
+    <position height="-1" width="-1" x="743" y="53"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -21,7 +21,7 @@
   </class>  
   <class id="3" language="java" name="com.aaronchan.prototype.RejoiceShampoo" project="Prototype" 
     file="/Prototype/src/com/aaronchan/prototype/RejoiceShampoo.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="764" y="55"/>    
+    <position height="-1" width="-1" x="964" y="61"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -30,7 +30,7 @@
   </class>  
   <class id="4" language="java" name="com.aaronchan.prototype.SassonShampoo" project="Prototype" 
     file="/Prototype/src/com/aaronchan/prototype/SassonShampoo.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="606" y="192"/>    
+    <position height="-1" width="-1" x="743" y="254"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -39,7 +39,7 @@
   </class>  
   <class id="5" language="java" name="com.aaronchan.prototype.Toothpaste" project="Prototype" 
     file="/Prototype/src/com/aaronchan/prototype/Toothpaste.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="82" y="50"/>    
+    <position height="-1" width="-1" x="3" y="53"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -48,7 +48,7 @@
   </class>  
   <class id="6" language="java" name="com.aaronchan.prototype.CrestToothpaste" project="Prototype" 
     file="/Prototype/src/com/aaronchan/prototype/CrestToothpaste.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="-68" y="47"/>    
+    <position height="-1" width="-1" x="-263" y="51"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -57,7 +57,7 @@
   </class>  
   <class id="7" language="java" name="com.aaronchan.prototype.DarlieToothpaste" project="Prototype" 
     file="/Prototype/src/com/aaronchan/prototype/DarlieToothpaste.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="78" y="189"/>    
+    <position height="-1" width="-1" x="5" y="219"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -66,7 +66,7 @@
   </class>  
   <interface id="8" language="java" name="com.aaronchan.prototype.CommodityFactory" project="Prototype" 
     file="/Prototype/src/com/aaronchan/prototype/CommodityFactory.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="335" y="-104"/>    
+    <position height="-1" width="-1" x="354" y="-104"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -75,65 +75,73 @@
   </interface>  
   <class id="9" language="java" name="com.aaronchan.prototype.CommodityFactoryImp" project="Prototype" 
     file="/Prototype/src/com/aaronchan/prototype/CommodityFactoryImp.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="337" y="62"/>    
+    <position height="-1" width="-1" x="357" y="65"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <realization id="10">    
-    <end type="SOURCE" refId="9"/>    
-    <end type="TARGET" refId="8"/>  
-  </realization>  
-  <generalization id="11">    
-    <end type="SOURCE" refId="6"/>    
-    <end type="TARGET" refId="5"/>  
-  </generalization>  
-  <generalization id="12">    
-    <end type="SOURCE" refId="2"/>    
-    <end type="TARGET" refId="1"/>  
-  </generalization>  
-  <generalization id="13">    
-    <end type="SOURCE" refId="5"/>    
-    <end type="TARGET" refId="1"/>  
-  </generalization>  
-  <association id="14">    
+  <association id="10">    
     <end type="SOURCE" refId="9" navigable="false">      
-      <attribute id="15" name="mToothpaste"/>      
-      <multiplicity id="16" minimum="0" maximum="1"/>    
+      <attribute id="11" name="mToothpaste">        
+        <position height="0" width="0" x="-79" y="3"/>      
+      </attribute>      
+      <multiplicity id="12" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-79" y="3"/>      
+      </multiplicity>    
     </end>    
     <end type="TARGET" refId="5" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <generalization id="17">    
-    <end type="SOURCE" refId="4"/>    
-    <end type="TARGET" refId="2"/>  
-  </generalization>  
-  <dependency id="18">    
-    <end type="SOURCE" refId="8"/>    
+  <generalization id="13">    
+    <end type="SOURCE" refId="7"/>    
     <end type="TARGET" refId="5"/>  
-  </dependency>  
-  <generalization id="19">    
-    <end type="SOURCE" refId="3"/>    
-    <end type="TARGET" refId="2"/>  
   </generalization>  
-  <dependency id="20">    
+  <dependency id="14">    
     <end type="SOURCE" refId="8"/>    
     <end type="TARGET" refId="2"/>  
   </dependency>  
-  <association id="21">    
+  <generalization id="15">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="5"/>  
+  </generalization>  
+  <association id="16">    
     <end type="SOURCE" refId="9" navigable="false">      
-      <attribute id="22" name="mShampoo"/>      
-      <multiplicity id="23" minimum="0" maximum="1"/>    
+      <attribute id="17" name="mShampoo">        
+        <position height="0" width="0" x="140" y="0"/>      
+      </attribute>      
+      <multiplicity id="18" minimum="0" maximum="1">        
+        <position height="0" width="0" x="140" y="0"/>      
+      </multiplicity>    
     </end>    
     <end type="TARGET" refId="2" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <generalization id="24">    
-    <end type="SOURCE" refId="7"/>    
+  <dependency id="19">    
+    <end type="SOURCE" refId="8"/>    
     <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <generalization id="20">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="1"/>  
   </generalization>  
+  <generalization id="21">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
+  <generalization id="22">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
+  <generalization id="23">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <realization id="24">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="8"/>  
+  </realization>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
     sort-features="false" accessors="true" visibility="true">    
     <attributes public="true" package="true" protected="true" private="true" static="true"/>    
