@@ -1,0 +1,7 @@
+/bin/
+
+local.properties
+.settings/
+# Eclipse Core
+.project
+.classpath
