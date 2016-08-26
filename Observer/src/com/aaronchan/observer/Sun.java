@@ -18,7 +18,7 @@ public class Sun {
 		} else {
 			stateType = SunStateType.RISE;
 		}
-		notifyObervers();
+		notifyObservers();
 	}
 
 	public void registerOberver(SunObserver sunObserver) {
@@ -29,7 +29,7 @@ public class Sun {
 		observers.remove(sunObserver);
 	}
 
-	private void notifyObervers() {
+	private void notifyObservers() {
 		for (SunObserver sunObserver : observers) {
 			sunObserver.update(stateType);
 		}
