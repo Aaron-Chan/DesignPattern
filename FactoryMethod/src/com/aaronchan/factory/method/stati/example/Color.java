@@ -1,8 +1,7 @@
 package com.aaronchan.factory.method.stati.example;
 
-
 public enum Color {
-	BLACK("black"), WHITE("white");
+	BLACK("black"), WHITE("white"), YELLOW("yellow");
 
 	private String title;
 

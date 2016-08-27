@@ -7,6 +7,8 @@ public class StaticApp {
 		System.out.println(produceMan);
 		Human produceWoman = GodFactory.produceWoman(Color.BLACK);
 		System.out.println(produceWoman);
+		produceWoman = GodFactory.produceWoman(Color.YELLOW);
+		System.out.println(produceWoman);
 	}
 
 }
