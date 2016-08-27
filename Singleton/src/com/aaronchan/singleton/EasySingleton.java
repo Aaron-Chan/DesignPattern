@@ -11,4 +11,9 @@ package com.aaronchan.singleton;
  */
 public enum EasySingleton {
 	INSTANCE;
+
+	@Override
+	public String toString() {
+		return String.format("%s hashcode:%s", this.getClass().getName(), this.hashCode());
+	}
 }

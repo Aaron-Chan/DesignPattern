@@ -18,4 +18,9 @@ public class HungrySingletonNestedClass {
 	public static final HungrySingletonNestedClass getInstance() {
 		return SingletonHolder.INSTANCE;
 	}
+
+	@Override
+	public String toString() {
+		return String.format("%s hashcode:%s", this.getClass().getName(), this.hashCode());
+	}
 }

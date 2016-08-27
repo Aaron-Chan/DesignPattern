@@ -6,11 +6,16 @@ package com.aaronchan.singleton;
  *
  */
 public class HungrySingleton {
-	public static final HungrySingleton INSTANCE = new HungrySingleton();
+	private static final HungrySingleton INSTANCE = new HungrySingleton();
 	private  HungrySingleton() {
 		
 	}
 	public static HungrySingleton getInstance() {
 		return INSTANCE;
+	}
+	
+	@Override
+	public String toString() {
+		return String.format("%s hashcode:%s", this.getClass().getName(), this.hashCode());
 	}
 }
