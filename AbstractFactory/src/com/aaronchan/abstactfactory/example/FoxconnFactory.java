@@ -9,7 +9,7 @@ public class FoxconnFactory implements ElectronicProductFactory {
 	}
 
 	@Override
-	public Tablet produceTabblet() {
+	public Tablet produceTablet() {
 		return new FoxconnTablet();
 	}
 

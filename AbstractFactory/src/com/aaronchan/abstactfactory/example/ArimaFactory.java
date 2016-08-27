@@ -8,7 +8,7 @@ public class ArimaFactory implements ElectronicProductFactory {
 	}
 
 	@Override
-	public Tablet produceTabblet() {
+	public Tablet produceTablet() {
 		return new ArimaTablet();
 	}
 
