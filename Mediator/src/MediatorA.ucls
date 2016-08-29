@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<class-diagram version="1.1.8" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
-  associations="true" dependencies="false" nesting-relationships="true">  
+<class-diagram version="1.1.10" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
   <class id="1" language="java" name="com.aaronchan.mediator.exampleA.App" project="Mediator" 
     file="/Mediator/src/com/aaronchan/mediator/exampleA/App.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="919" y="269"/>    
+    <position height="-1" width="-1" x="1026" y="273"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -12,7 +12,7 @@
   </class>  
   <class id="2" language="java" name="com.aaronchan.mediator.exampleA.Enemy" project="Mediator" 
     file="/Mediator/src/com/aaronchan/mediator/exampleA/Enemy.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="299" y="455"/>    
+    <position height="-1" width="-1" x="317" y="505"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -30,7 +30,7 @@
   </class>  
   <class id="4" language="java" name="com.aaronchan.mediator.exampleA.Leading" project="Mediator" 
     file="/Mediator/src/com/aaronchan/mediator/exampleA/Leading.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="94" y="448"/>    
+    <position height="-1" width="-1" x="31" y="498"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -39,25 +39,25 @@
   </class>  
   <enumeration id="5" language="java" name="com.aaronchan.mediator.exampleA.Action" project="Mediator" 
     file="/Mediator/src/com/aaronchan/mediator/exampleA/Action.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="446" y="-67"/>    
+    <position height="-1" width="-1" x="431" y="-110"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </enumeration>  
-  <class id="6" language="java" name="com.aaronchan.mediator.exampleA.Show" project="Mediator" 
+  <interface id="6" language="java" name="com.aaronchan.mediator.exampleA.Show" project="Mediator" 
     file="/Mediator/src/com/aaronchan/mediator/exampleA/Show.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="667" y="70"/>    
+    <position height="-1" width="-1" x="825" y="61"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
-  </class>  
+  </interface>  
   <class id="7" language="java" name="com.aaronchan.mediator.exampleA.ShowImpl" project="Mediator" 
     file="/Mediator/src/com/aaronchan/mediator/exampleA/ShowImpl.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="688" y="275"/>    
+    <position height="-1" width="-1" x="718" y="275"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -66,7 +66,7 @@
   </class>  
   <class id="8" language="java" name="com.aaronchan.mediator.exampleA.GoodFriend" project="Mediator" 
     file="/Mediator/src/com/aaronchan/mediator/exampleA/GoodFriend.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="518" y="460"/>    
+    <position height="-1" width="-1" x="577" y="505"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -78,69 +78,85 @@
     <end type="TARGET" refId="5"/>  
   </dependency>  
   <dependency id="10">    
-    <end type="SOURCE" refId="6"/>    
+    <end type="SOURCE" refId="7"/>    
     <end type="TARGET" refId="5"/>  
   </dependency>  
-  <dependency id="11">    
+  <realization id="11">    
     <end type="SOURCE" refId="7"/>    
-    <end type="TARGET" refId="3"/>  
-  </dependency>  
-  <generalization id="12">    
-    <end type="SOURCE" refId="8"/>    
-    <end type="TARGET" refId="3"/>  
-  </generalization>  
-  <generalization id="13">    
-    <end type="SOURCE" refId="2"/>    
-    <end type="TARGET" refId="3"/>  
-  </generalization>  
-  <association id="14">    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <association id="12">    
     <end type="SOURCE" refId="7" navigable="false">      
-      <attribute id="15" name="mEnemy"/>      
-      <multiplicity id="16" minimum="0" maximum="1"/>    
-    </end>    
-    <end type="TARGET" refId="2" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="17">    
-    <end type="SOURCE" refId="7" navigable="false">      
-      <attribute id="18" name="mLeading"/>      
-      <multiplicity id="19" minimum="0" maximum="1"/>    
+      <attribute id="13" name="mLeading">        
+        <position height="0" width="0" x="-63" y="50"/>      
+      </attribute>      
+      <multiplicity id="14" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-63" y="50"/>      
+      </multiplicity>    
     </end>    
     <end type="TARGET" refId="4" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="20">    
+  <association id="15">    
     <end type="SOURCE" refId="3" navigable="false">      
-      <attribute id="21" name="mShow"/>      
-      <multiplicity id="22" minimum="0" maximum="1"/>    
+      <attribute id="16" name="mShow">        
+        <position height="0" width="0" x="158" y="-9"/>      
+      </attribute>      
+      <multiplicity id="17" minimum="0" maximum="1">        
+        <position height="0" width="0" x="158" y="-9"/>      
+      </multiplicity>    
     </end>    
     <end type="TARGET" refId="6" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <realization id="23">    
+  <dependency id="18">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="19">    
     <end type="SOURCE" refId="7"/>    
-    <end type="TARGET" refId="6"/>  
-  </realization>  
-  <association id="24">    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <generalization id="20">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <association id="21">    
     <end type="SOURCE" refId="7" navigable="false">      
-      <attribute id="25" name="mFriend"/>      
-      <multiplicity id="26" minimum="0" maximum="1"/>    
+      <attribute id="22" name="mFriend">        
+        <position height="0" width="0" x="59" y="45"/>      
+      </attribute>      
+      <multiplicity id="23" minimum="0" maximum="1">        
+        <position height="0" width="0" x="59" y="45"/>      
+      </multiplicity>    
     </end>    
     <end type="TARGET" refId="8" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <generalization id="27">    
-    <end type="SOURCE" refId="4"/>    
-    <end type="TARGET" refId="3"/>  
-  </generalization>  
-  <dependency id="28">    
+  <dependency id="24">    
     <end type="SOURCE" refId="1"/>    
     <end type="TARGET" refId="7"/>  
   </dependency>  
-  <dependency id="29">    
-    <end type="SOURCE" refId="7"/>    
-    <end type="TARGET" refId="5"/>  
-  </dependency>  
+  <association id="25">    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="26" name="mEnemy">        
+        <position height="0" width="0" x="18" y="50"/>      
+      </attribute>      
+      <multiplicity id="27" minimum="0" maximum="1">        
+        <position height="0" width="0" x="18" y="50"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="28">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <generalization id="29">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
     sort-features="false" accessors="true" visibility="true">    
     <attributes public="true" package="true" protected="true" private="true" static="true"/>    
